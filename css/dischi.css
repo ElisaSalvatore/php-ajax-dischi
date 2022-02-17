@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1D2D3A;
 }
 
 /* ---------- HEADER */
@@ -9,7 +14,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    background-color: #2D3A45;;
+    background-color: #2D3A45;
     padding-left: 30px;
 }
 
@@ -19,4 +24,67 @@ header > img {
 }
 
 /* ---------- MAIN */
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
 
+.container-cards {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: calc(100% / 5 - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    background-color: #2D3A45;
+    margin: 10px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.card > img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.title,
+.author,
+.year {
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.author,
+.year {
+    font-weight: 100;
+    color: #ccc;
+}
+
+.author:hover,
+.year:hover {
+    color: #fff;
+}

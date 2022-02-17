@@ -17,6 +17,13 @@
             "year" => "1992", 
         ],
         [
+            "poster" =>	"https://images-na.ssl-im…images/I/41JD3CW65HL.jpg",
+            "title" => "Ten's Summoner's Tales",
+            "author" => "Sting",
+            "genre" => "Pop",
+            "year" => "1993", 
+        ],
+        [
             "poster" =>	"https://cdn2.jazztimes.c…05/SteveGadd-800x723.jpg",
             "title" => "Steve Gadd Band",
             "author" => "Steve Gadd Band",
