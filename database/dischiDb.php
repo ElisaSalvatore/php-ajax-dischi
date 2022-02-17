@@ -1,6 +1,5 @@
-<!-- DATABASE JSON -->
-
 <?php
+    // DATABASE 
     $dischi = [
         [
             "poster" =>	"https://www.onstageweb.c…/bon-jovi-new-jersey.jpg",
